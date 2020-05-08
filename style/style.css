@@ -49,7 +49,21 @@ h1{
 .massive-getmein{
     display: flex;
     padding-top: 5em;
-    padding-left: 10vw;
+    /* padding-left: 10vw; */
+}
+.massive0{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left:5vw;
+}
+.massive0>.pic1{
+    align-self: center;
+    background: tomato;
+    padding: 1vw;
+    border: 1px solid white;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
 }
 .massive1{
     width: 40vw;
