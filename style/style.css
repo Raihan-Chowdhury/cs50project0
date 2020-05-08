@@ -89,15 +89,17 @@ h1{
 .cfc1>p{
     padding-top: 2vh;
     font-size: 2vw;
+    color: tomato;
 }
 .cfr1x{
     display: flex;
     padding-top: 2vh;
     justify-content: center;
 }
-.cfc2>h2{
+.cfc2>a{
     font-size: 3vw;
     padding: 2vw;
+    color: white;
 }
 .cfr2{
     display: flex;

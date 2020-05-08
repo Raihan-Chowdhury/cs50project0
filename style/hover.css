@@ -21,3 +21,15 @@ a:hover {
   transition: .5s ease;
   text-decoration: none;
 }
+
+.lll:link {
+  color: tomato;
+}
+.lll:visited {
+  color: tomato;
+}
+.lll:hover {
+  color: white;
+  transition: .5s ease;
+  text-decoration: none;
+}
