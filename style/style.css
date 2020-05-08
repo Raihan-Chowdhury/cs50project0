@@ -1,0 +1,129 @@
+@font-face{
+    src: url("../font/Burb.otf");
+    font-family: nos;
+}
+@font-face{
+    src: url("../font/haveti.ttf");
+    font-family: nos2;
+}
+.mcf-h{
+    font-family: nos;
+    font-size: 3rem;
+    color: white;
+}
+.mcf-l{
+    font-family: nos;
+    font-size: 2rem;
+    color: white;
+    padding-left: 4rem;
+}
+.navbar{
+    background: #273238;
+}
+.navbar-brand{
+    color: white;
+    font-size: 2rem;
+}
+.navbg{
+    background:white;
+}
+.navbg2{
+    background-image: url("https://img.icons8.com/material-rounded/24/000000/menu.png");
+}
+h1{
+    font-family: nos;
+}
+.center{
+    text-align: center;
+}
+.massive-h1{
+    font-size: 5rem;
+    padding-top: 5rem;
+}
+.massive-h4{
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: #b5b5b5;
+    font-family: nos;
+}
+.massive-getmein{
+    display: flex;
+    padding-top: 5em;
+    padding-left: 10vw;
+}
+.massive1{
+    width: 40vw;
+}
+.massive2{
+    width: 40vw;
+    display: flex;
+    align-self: center;
+}
+.container1{
+    padding: 2vw;
+}
+.container1-h1{
+    font-family: nos;
+    font-size: 4vw;
+}
+.container1-p{
+    font-family: nos;
+    font-size: 2vw;
+    color: #4d4d4d;
+}
+.container-footer{
+    background: #3d4458;
+    color: white;
+    font-family: nos;
+}
+/* .cfr1{
+    font-family: nos;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 5vw;
+}
+.cfc2{
+    width: 20vw;
+}
+.cfc1>h2{
+    font-size: 3vw;
+    justify-content: center;
+}
+.cfc1>p{
+    font-size: 2rem;
+    justify-content: center;
+}
+.cfc2>h2{
+    font-size: 3;
+} */
+.cfc1{
+    font-family: nos;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.cfc1>h2{
+    padding-top: 20vh;
+    font-size: 4vw;
+}
+.cfc1>p{
+    padding-top: 2vh;
+    font-size: 2vw;
+}
+.cfr1x{
+    display: flex;
+    padding-top: 12vh;
+    justify-content: center;
+}
+.cfc2>h2{
+    font-size: 3vw;
+    padding: 2vw;
+}
+.cfr2{
+    display: flex;
+    justify-content: center;
+}
