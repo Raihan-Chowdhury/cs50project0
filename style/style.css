@@ -50,9 +50,14 @@ h1{
     display: flex;
     padding-top: 5em;
     padding-left: 10vw;
+    padding-right: 10vw;
 }
 .massive1{
     width: 40vw;
+}
+.midas{
+    width: 40vw;
+    height: auto;
 }
 .massive2{
     width: 40vw;

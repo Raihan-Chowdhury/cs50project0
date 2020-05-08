@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media( max-width:801px ){
+    body{
+        background: white;
+    }
+    .massive-getmein {
+        display: grid;
+        padding-top: 5em;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        grid-template-columns: 1fr;
+    }
+
+    .massive-h1 {
+        font-size: 7rem;
+        padding-top: 5rem;
+    }
+    .massive-h4 {
+        font-size: 4rem;
+        padding-top: 1rem;
+        color: #b5b5b5;
+        font-family: nos;
+    }
+    .cfc1 > h2 {
+        padding-top: 7vh;
+        font-size: 8vw;
+    }
+    .cfc1 > p {
+        padding-top: 2vh;
+        font-size: 5vw;
+        color: tomato;
+        padding-left: 2vw;
+    }
+    .cfc2 > a {
+        font-size: 10vw;
+        padding: 2vw;
+        color: white;
+    }
+    .cfr1x {
+        display: flex;
+        justify-content: center;
+        padding-top: 9vh;
+    }
+    .midas {
+        width: 80vw;
+        height: auto;
+        background: url("https://i.pinimg.com/originals/74/43/a3/7443a31b6a19e5630b94a6538ff9bdd1.gif");
+    }
+    .massive2 {
+        padding-top: 4vh;
+        width: 80vw;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+    .container1-h1 {
+        font-family: nos;
+        font-size: 8vw;
+        text-align: center;
+    }
+    .container1-p {
+        font-family: nos;
+        font-size: 7vw;
+        color: #4d4d4d;
+        text-align: center;
+    }
+    .container1 {
+        box-shadow: 10px 10px 10px #888;
+        padding-top: 2vh;
+        margin-top: 2vh;
+        margin-bottom: 10vh;
+        border: 1px solid white;
+        border-radius: 20px;
+        background: url("https://i.pinimg.com/originals/74/43/a3/7443a31b6a19e5630b94a6538ff9bdd1.gif");
+    }
+    
+}
