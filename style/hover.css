@@ -1,0 +1,23 @@
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: tomato;
+  transition: .5s ease;
+  text-decoration: none;
+}
+
+.ll:link {
+  color: rgb(51, 51, 51);
+}
+.ll:visited {
+  color: rgb(51, 51, 51);
+}
+.ll:hover {
+  color: tomato;
+  transition: .5s ease;
+  text-decoration: none;
+}

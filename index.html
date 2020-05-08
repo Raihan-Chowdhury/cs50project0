@@ -2,21 +2,15 @@
 <html>
     <head>
         <title>My Webpage</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
         <link rel="stylesheet" href="./style/style.css">
+        <link rel="stylesheet" href="./style/hover.css">
     </head>
     <body>
-        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <ul>
-                <li>Home</li>
-                <li>Projects</li>
-                <li>About</li>
-                <li>Contract</li>
-            </ul>
-        </nav> -->
         <nav class="navbar navbar-expand-lg ">
             <a class=" mcf-h" href="#">ZushiBot</a>
             <button class="navbar-toggler navbg" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +35,7 @@
             </div>
           </nav>
         <div class="massive">
-            <h1 class="massive-h1 center">This is my website</h1>
+            <h1 class="massive-h1 center">Welcome To My <span style="color: tomato;">P</span>ortfolio</h1>
             <h3 class="massive-h4 center">Here I will present my skills and projects</h3>
             
             <div class="massive-getmein">
@@ -51,21 +45,21 @@
                 <div class="massive2">
                     <div class="container-Head">
                         <div class="container1">
-                            <a href="./midas.png" class="container1-h1" style="text-decoration: none;">
-                                <span style="color:tomato;">< /></span><span style="color: black;">Projects</span>
-                            </a>
+                            <h2 class="container1-h1">
+                                <span style="color:tomato;">< /></span><a class="ll" href="./pages/Projects/projects.html" >My Projects</a>
+                            </h2>
                             <p class="container1-p">You can explore my projects and view codes on github</p>
                         </div>
                         <div class="container1">
                                 <h2 class="container1-h1">
-                                    <span style="color:tomato;">< /></span>About me
+                                    <span style="color:tomato;">< /></span><a class="ll" href="#" >About</a>
                                 </h2>
                                 <p class="container1-p">You can view my intro and my social media accounts</p>
                         </div>
                         <div class="container1">
-                                <h2 class="container1-h1">
-                                    <span style="color:tomato;">< /></span>Contract
-                                </h2>
+                            <h2 class="container1-h1">
+                                <span style="color:tomato;">< /></span><a class="ll" href="#" >Contract</a>
+                            </h2>
                                 <p class="container1-p">Feel free to contract me about anything</p>
                         </div>
                         </div>
@@ -73,28 +67,31 @@
                 </div>
             </div>
         </div>
-        <div class="container-footer">
-            <div class="cfr1">
-                <div class="cfc1">
-                    <h2>THIS IS MY WEBSITE</h2>
-                    <p>Hello,It's Me. My name is Raihan Chowdhury.I develop Website Just like this one.This one is made for Cs50W.</p>
+        <footer>
+            <div class="container-footer">
+                <div class="cfr1">
+                    <div class="cfc1">
+                        <h2>THIS IS MY WEBSITE</h2>
+                        <p>Hello,It's Me. My name is Raihan Chowdhury.I develop Website Just like this one.This one is made for Cs50W.</p>
+                    </div>
+                    <div class="cfr1x">
+                        <div class="cfc2">
+                            <h2>PROJECTS</h2>
+                        </div>
+                        <div class="cfc2">
+                            <h2>ABOUT</h2>
+                        </div>
+                        <div class="cfc2">
+                            <h2>CONTRACT</h2>
+                        </div>
+                    </div> 
                 </div>
-                <div class="cfr1x">
-                    <div class="cfc2">
-                        <h2>PROJECTS</h2>
-                    </div>
-                    <div class="cfc2">
-                        <h2>ABOUT</h2>
-                    </div>
-                    <div class="cfc2">
-                        <h2>CONTRACT</h2>
-                    </div>
-                </div> 
+                <div class="cfr2">
+                    <h1>Join Our Community</h1>
+                    <button type="button" class="btn mybtn">Register</button>
+                </div>
             </div>
-            <div class="cfr2">
-                <h1>Join Our Community</h1>
-                <button type="button" class="btn mybtn">Register</button>
-            </div>
-        </div>
+        </footer>
+        
     </body>
 </html>

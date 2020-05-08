@@ -83,7 +83,7 @@ h1{
     text-align: center;
 }
 .cfc1>h2{
-    padding-top: 20vh;
+    padding-top: 5vh;
     font-size: 4vw;
 }
 .cfc1>p{
@@ -92,7 +92,7 @@ h1{
 }
 .cfr1x{
     display: flex;
-    padding-top: 12vh;
+    padding-top: 2vh;
     justify-content: center;
 }
 .cfc2>h2{
