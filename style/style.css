@@ -76,30 +76,6 @@ h1{
     color: white;
     font-family: nos;
 }
-/* .cfr1{
-    font-family: nos;
-    color: white;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    padding: 5vw;
-}
-.cfc2{
-    width: 20vw;
-}
-.cfc1>h2{
-    font-size: 3vw;
-    justify-content: center;
-}
-.cfc1>p{
-    font-size: 2rem;
-    justify-content: center;
-}
-.cfc2>h2{
-    font-size: 3;
-} */
 .cfc1{
     font-family: nos;
     display: grid;
@@ -126,4 +102,16 @@ h1{
 .cfr2{
     display: flex;
     justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    padding-bottom: 6vh;
+}
+.cfr2>h1{
+    padding-right: 5vw;
+}
+.mybtn{
+    font-size: 3vw;
+    background: tomato;
+    color: white;
 }
