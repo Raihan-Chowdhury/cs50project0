@@ -14,11 +14,14 @@ img:hover{
 .profile-1{
   display: grid;
   grid-template-columns: 1fr 2fr;
-  margin-left: 15vw;
-  margin-right: 15vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
   margin-top: 10vh;
   margin-bottom: 5vh;
   /* background: url(./geomatry.gif)repeat center center fixed; */
+  border-radius: 2vw;
+  padding: 2vw;
+  box-shadow: 3px 1px 5px black;
 }
 .profile-pic{
   justify-self: center;
@@ -36,8 +39,15 @@ img:hover{
 }
 .profile-details-parah,li{
   font-size: 4vw;
-  color: rgb(184, 184, 184);
+  color: rgb(75, 75, 75);
 }
+.profile-details-parah,li:hover{
+  transform: scale3d(1.4,1.4,1);
+  transition: .6s ease;
+  color: tomato;
+
+}
+
 .raihan{
   width: 20vw;
   border: .1vw solid white;
@@ -49,7 +59,13 @@ img:hover{
 }
 .skill-details1-h1{
   font-size: 4.5vw;
-  margin: 5vw;
+  color:black;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  background: url("./geomatry.gif");
+  border: 1px solid white;
+  border-radius: 3vw;
+  box-shadow: 5px 1px 5px black;
 }
 .skills{
   
@@ -60,6 +76,7 @@ img:hover{
   margin-left: 11vw;
   margin-right: 11vw;
   margin-top: 3vh;
+  margin-bottom: 6vh;
   border: 1px solid white;
   border-radius: 5vw;
   box-shadow: 5px 5px 5px black;

@@ -129,9 +129,13 @@ h1{
 }
 
 .social img {
-    background: url("https://i.pinimg.com/originals/74/43/a3/7443a31b6a19e5630b94a6538ff9bdd1.gif");
-    padding: 4vw;
+    background: url("./geomatry.gif");
+    padding: 2vw;
     border: .1vw solid white;
     border-radius: 10vw;
     margin: 3vw;
+}
+.social img:hover{
+    transform: rotate(360deg) scale(1.2);
+    transition: .3s ease;
 }
