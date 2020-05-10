@@ -37,11 +37,11 @@ img:hover{
   font-size: 3vw;
   color:tomato;
 }
-.profile-details-parah,li{
+ul.ulme li{
   font-size: 4vw;
   color: rgb(75, 75, 75);
 }
-.profile-details-parah,li:hover{
+ul.ulme li:hover{
   transform: scale3d(1.4,1.4,1);
   transition: .6s ease;
   color: tomato;
