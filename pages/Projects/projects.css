@@ -70,5 +70,20 @@ justify-content: center;
     margin-top: 2vh;
     margin-bottom: 5vh;
   }   
+  .doc > h1 {
+    margin-left: 2vw;
+    font-size: 5vw;
+  }
+  .lused > li {
+    margin-left: 2vw;
+    font-size: 3vw;
+    color: rgb(121, 121, 121);
+  }
+  .statanddate > p {
+    font-size: 3vw;
+  }
+  .btn-danger {
+    font-size: 3vw;
+  }
 }
 
