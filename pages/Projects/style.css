@@ -10,9 +10,14 @@ body{
   border: 1px;
   border-radius: 2vw;
   box-shadow: 2px 5px 5px black;
+  margin-left: 5vw; 
+  margin-top: 5vh; 
+  margin-right: 2vw;
 }
 .project-card>img{
   padding: 4vw;
+  width: 65vw;
+  margin-bottom: 5vh;
 }
 .project-details>h1{
   font-size: 5vw;

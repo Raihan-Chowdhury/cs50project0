@@ -1,0 +1,74 @@
+@font-face {
+    src: url("../font/Burb.otf");
+    font-family: nos;
+  }
+body{
+  font-family: nos;
+}
+.containerxpre{
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+.detailsofcard{
+  display: flex;
+  /* justify-content: center; */
+  margin-bottom: 3vh;
+}
+.doc>h1{
+  margin-left: 2vw;
+}
+.lused>li{
+ margin-left: 2vw;
+ font-size: 1.6vw;
+ color:rgb(121, 121, 121);
+}
+.doc>p{
+ text-align: center;
+}
+.statanddate{
+display: grid;
+justify-content: center;
+}
+.statanddate>p{
+  font-size: 1.5vw;
+}
+/* bootstrap */
+.col-xl-5{
+  padding: 0vw;
+  background: url("../Registration/style/geomatry.gif");
+  margin: 3.7vw;
+  border: 1px;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 2vw;
+}
+.col-xl-5>img{
+  width: 25vw;
+  border: 1px;
+  box-shadow: 2px 2px 5px;
+  border-radius: 1vw;
+  margin-left: 1vw;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+}
+.row{
+  margin:0vw;
+}
+.btn-danger{
+  font-size: 2vw;
+}
+
+
+@media( max-width:1200px ){
+  .col-xl-5 > img {
+    width: 50vw;
+    border: 1px;
+    box-shadow: 2px 2px 5px;
+    border-radius: 1vw;
+    margin-left: 1vw;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+  }   
+}
+
