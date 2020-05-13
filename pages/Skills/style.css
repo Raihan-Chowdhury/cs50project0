@@ -114,3 +114,28 @@ td{
   transform: scale(1.2);
   transition: .5s ease;
 }
+.hiremex{
+  display: grid;
+  justify-content: center;
+}
+.hiremex>h1{
+  font-size: 9vw;
+  padding-top: 20vh;
+  padding-bottom: 12vh;
+  justify-self: center;
+}
+.btn-hireme{
+  color: white;
+  font-size: 5vw;
+  margin-bottom: 10vh;
+  justify-self: center;
+}
+
+@media( max-width:999px ){
+  .hiremex>h1{
+    font-size: 9vw;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    justify-self: center;
+  }
+  }
