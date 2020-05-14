@@ -19,11 +19,13 @@ $FvColor:rgb(253, 91, 62);
    box-shadow: 10px 4px 50px;
    h1{
       text-align: center;
+      font-size: 7vw;
+      color: tomato;
    }
    label{
       // background: $FvColor;
       margin-bottom: 2vh;
-      font-size: 2vw;
+      font-size: 4vw;
    }
    input{
       background: white;
@@ -34,13 +36,11 @@ $FvColor:rgb(253, 91, 62);
       border-top: 2px solid white;
       padding-left: 2.5px;
       margin-bottom: 7vh;
-      font-size: 2vw;
       color: $FvColor;
       
    }
    textarea
       {
-         font-size: 1.4vw;
          border: 3px solid rgb(82, 82, 82);
          border-radius: 1vw;
          color: $FvColor;
@@ -50,4 +50,50 @@ $FvColor:rgb(253, 91, 62);
       .btn-danger{
          font-size: 2vw;
       }
+}
+@media( max-width:999px ){
+   body{
+      background: black;
+   }
+   .contact-me-here{
+      background: url("../../style/geomatry.gif");
+   }
+   .contact-box-x{
+      background-image: url("../Registration/style/geomatry.gif");
+      margin: 10vw;
+      font-family: nos;
+      display:grid;
+      padding: 3vw;
+      box-shadow: 10px 4px 50px;
+      h1{
+         text-align: center;
+      }
+      label{
+         // background: $FvColor;
+         margin-bottom: 2vh;
+      }
+      input{
+         background: white;
+         opacity: .8;
+         border-bottom: 2px solid rgb(82, 82, 82);
+         border-left: 2px solid white;
+         border-right: 2px solid white;
+         border-top: 2px solid white;
+         padding-left: 2.5px;
+         margin-bottom: 7vh;
+         color: $FvColor;
+         
+      }
+      textarea
+         {
+            font-size: 1.4vw;
+            border: 3px solid rgb(82, 82, 82);
+            color: $FvColor;
+            margin-bottom: 5vh;
+            opacity: .8;
+         }
+         .btn-danger{
+            font-size: 2vw;
+         }
+   }
 }

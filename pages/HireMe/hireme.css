@@ -21,10 +21,12 @@
 }
 .contact-box-x h1 {
   text-align: center;
+  font-size: 7vw;
+  color: tomato;
 }
 .contact-box-x label {
   margin-bottom: 2vh;
-  font-size: 2vw;
+  font-size: 4vw;
 }
 .contact-box-x input {
   background: white;
@@ -35,11 +37,9 @@
   border-top: 2px solid white;
   padding-left: 2.5px;
   margin-bottom: 7vh;
-  font-size: 2vw;
   color: #fd5b3e;
 }
 .contact-box-x textarea {
-  font-size: 1.4vw;
   border: 3px solid #525252;
   border-radius: 1vw;
   color: #fd5b3e;
@@ -48,6 +48,52 @@
 }
 .contact-box-x .btn-danger {
   font-size: 2vw;
+}
+
+@media (max-width: 999px) {
+  body {
+    background: black;
+  }
+
+  .contact-me-here {
+    background: url("../../style/geomatry.gif");
+  }
+
+  .contact-box-x {
+    background-image: url("../Registration/style/geomatry.gif");
+    margin: 10vw;
+    font-family: nos;
+    display: grid;
+    padding: 3vw;
+    box-shadow: 10px 4px 50px;
+  }
+  .contact-box-x h1 {
+    text-align: center;
+  }
+  .contact-box-x label {
+    margin-bottom: 2vh;
+  }
+  .contact-box-x input {
+    background: white;
+    opacity: 0.8;
+    border-bottom: 2px solid #525252;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+    padding-left: 2.5px;
+    margin-bottom: 7vh;
+    color: #fd5b3e;
+  }
+  .contact-box-x textarea {
+    font-size: 1.4vw;
+    border: 3px solid #525252;
+    color: #fd5b3e;
+    margin-bottom: 5vh;
+    opacity: 0.8;
+  }
+  .contact-box-x .btn-danger {
+    font-size: 2vw;
+  }
 }
 
 /*# sourceMappingURL=hireme.css.map */
