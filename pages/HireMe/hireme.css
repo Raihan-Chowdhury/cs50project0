@@ -2,6 +2,91 @@
   src: url("../font/Burb.otf");
   font-family: nos;
 }
+#T2, #C2, #A, #T, #N, #O, #C, .hashhash {
+  font-size: 10vw;
+  font-family: nos;
+}
+
+.hashhash {
+  color: tomato;
+}
+
+#C {
+  color: #845EC2;
+}
+
+#O {
+  color: #D65DB1;
+}
+
+#N {
+  color: #FF6F91;
+}
+
+#T {
+  color: #FF9671;
+}
+
+#A {
+  color: #FFC75F;
+}
+
+#C2 {
+  color: tomato;
+}
+
+#T2 {
+  color: #d227ad;
+}
+
+.conju-cont {
+  margin-top: 4vh;
+  display: flex;
+  justify-content: center;
+}
+
+#C:hover {
+  color: tomato;
+  transform: scale(1.2) rotate(360deg);
+  transition: 0.5s;
+}
+
+#O:hover {
+  color: tomato;
+  transform: translateY(-3vh);
+  transition: 0.5s;
+}
+
+#N:hover {
+  color: tomato;
+  transform: scale(1.2) rotate(-360deg);
+  transition: 0.5s;
+}
+
+#T:hover {
+  color: tomato;
+  transform: translateY(2vh) scale(1.3);
+  transition: 0.5s;
+}
+
+#A:hover {
+  color: tomato;
+  transform: translateY(-3vh);
+  transition: 0.5s;
+}
+
+#C2:hover {
+  color: tomato;
+  transform: scale(1.2) rotate(360deg);
+  transition: 0.5s;
+}
+
+#T2:hover {
+  color: tomato;
+  transform: scale(2);
+  transition: 0.5s;
+}
+
 .body {
   font-family: nos;
   background: url("../../style/geomatry.gif");
@@ -51,10 +136,6 @@
 }
 
 @media (max-width: 999px) {
-  body {
-    background: black;
-  }
-
   .contact-me-here {
     background: url("../../style/geomatry.gif");
   }
@@ -65,7 +146,7 @@
     font-family: nos;
     display: grid;
     padding: 3vw;
-    box-shadow: 10px 4px 50px;
+    box-shadow: 4px 4px 5px;
   }
   .contact-box-x h1 {
     text-align: center;

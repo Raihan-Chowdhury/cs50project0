@@ -132,7 +132,7 @@ h1{
     background: url("./geomatry.gif");
     padding: 2vw;
     border: .1vw solid white;
-    border-radius: 10vw;
+    border-radius: 100vw;
     margin: 3vw;
 }
 .social img:hover{

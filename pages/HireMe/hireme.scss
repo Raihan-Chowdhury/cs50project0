@@ -2,6 +2,87 @@
    src: url("../font/Burb.otf");
    font-family: nos;
 }
+%coju-contact{
+   font-size: 10vw;
+   font-family: nos;
+ }
+ .hashhash{
+   @extend %coju-contact;
+   color : tomato;
+ }
+#C{
+   @extend %coju-contact;
+   color :#845EC2;
+}
+#O{
+   @extend %coju-contact;
+   color: #D65DB1;
+}
+#N{
+   @extend %coju-contact;
+   color: #FF6F91;
+}
+#T{
+   @extend %coju-contact;
+   color: #FF9671;
+
+}
+#A{
+   @extend %coju-contact;
+   color: #FFC75F;
+}
+#C2{
+   @extend %coju-contact;
+   color: tomato;
+}
+#T2{
+   @extend %coju-contact;
+   color: rgb(210, 39, 173);
+}
+.conju-cont{
+   margin-top: 4vh;
+   display: flex;
+   justify-content: center;
+}
+
+#C:hover{
+   color: tomato;
+   transform: scale(1.2) rotate(360deg);
+   transition: .5s;
+}
+#O:hover{
+   color: tomato;
+   transform: translateY(-3vh);
+   transition: .5s;
+}
+#N:hover{
+   color: tomato;
+   transform: scale(1.2) rotate(-360deg);
+   transition: .5s;
+}
+#T:hover{
+   color: tomato;
+   transform: translateY(2vh) scale(1.3);
+   transition: .5s;
+}
+#A:hover{
+   color: tomato;
+   transform: translateY(-3vh);
+   transition: .5s;
+}
+#C2:hover{
+   color: tomato;
+   transform: scale(1.2) rotate(360deg);
+   transition: .5s;
+}
+#T2:hover{
+   color: tomato;
+   transform: scale(2);
+   transition: .5s;
+}
+
+
+
 $FvColor:rgb(253, 91, 62);
 .body{
    font-family: nos;
@@ -52,9 +133,6 @@ $FvColor:rgb(253, 91, 62);
       }
 }
 @media( max-width:999px ){
-   body{
-      background: black;
-   }
    .contact-me-here{
       background: url("../../style/geomatry.gif");
    }
@@ -64,7 +142,7 @@ $FvColor:rgb(253, 91, 62);
       font-family: nos;
       display:grid;
       padding: 3vw;
-      box-shadow: 10px 4px 50px;
+      box-shadow: 4px 4px 5px;
       h1{
          text-align: center;
       }
