@@ -29,20 +29,19 @@
 .contact-box-x input {
   background: white;
   opacity: 0.8;
-  border-bottom: 3px solid #525252;
+  border-bottom: 2px solid #525252;
   border-left: 2px solid white;
   border-right: 2px solid white;
   border-top: 2px solid white;
+  padding-left: 2.5px;
   margin-bottom: 7vh;
   font-size: 2vw;
   color: #fd5b3e;
 }
 .contact-box-x textarea {
   font-size: 1.4vw;
-  height: 20vh;
   border: 3px solid #525252;
   border-radius: 1vw;
-  padding: 0.7vw;
   color: #fd5b3e;
   margin-bottom: 5vh;
   opacity: 0.8;
