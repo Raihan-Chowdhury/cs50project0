@@ -1,0 +1,56 @@
+@font-face {
+  src: url("../font/Burb.otf");
+  font-family: nos;
+}
+.body {
+  font-family: nos;
+  background: url("../../style/geomatry.gif");
+}
+
+.contact-me-here {
+  background: url("../../style/geomatry.gif");
+}
+
+.contact-box-x {
+  background-image: url("../Registration/style/geomatry.gif");
+  margin: 10vw;
+  font-family: nos;
+  display: grid;
+  padding: 3vw;
+  box-shadow: 10px 4px 50px;
+}
+.contact-box-x h1 {
+  text-align: center;
+}
+.contact-box-x label {
+  margin-bottom: 2vh;
+  font-size: 2vw;
+}
+.contact-box-x input {
+  background: white;
+  opacity: 0.8;
+  border-bottom: 3px solid #525252;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-top: 2px solid white;
+  margin-bottom: 7vh;
+  width: 74vw;
+  height: 2.3vw;
+  font-size: 2vw;
+  color: #fd5b3e;
+}
+.contact-box-x textarea {
+  font-size: 1.4vw;
+  height: 20vh;
+  border: 3px solid #525252;
+  border-radius: 1vw;
+  padding: 0.7vw;
+  color: #fd5b3e;
+  margin-bottom: 5vh;
+  opacity: 0.8;
+}
+.contact-box-x .btn-danger {
+  font-size: 2vw;
+}
+
+/*# sourceMappingURL=hireme.css.map */
