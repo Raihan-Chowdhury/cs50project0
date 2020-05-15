@@ -46,7 +46,7 @@ h1{
     color: #b5b5b5;
     font-family: nos;
 }
-.massive-getmein{
+#massive-getmein{
     display: flex;
     padding-top: 5em;
     padding-left: 10vw;
@@ -76,7 +76,7 @@ h1{
     font-size: 2vw;
     color: #4d4d4d;
 }
-.container-footer{
+#container-footer{
     background: #3d4458;
     color: white;
     font-family: nos;

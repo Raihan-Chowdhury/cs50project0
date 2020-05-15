@@ -7,7 +7,7 @@
     body{
         background: white;
     }
-    .massive-getmein {
+    #massive-getmein {
         display: grid;
         padding-top: 5em;
         padding-left: 10vw;
