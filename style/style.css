@@ -6,6 +6,10 @@
     src: url("../font/haveti.ttf");
     font-family: nos2;
 }
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 .mcf-h{
     font-family: nos;
     font-size: 3rem;
